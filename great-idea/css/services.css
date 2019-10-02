@@ -80,11 +80,15 @@ body {
   margin: 0 auto;
   width: 1000px;
   padding: 0 60px;
+
+  font-size: 16px;
+  line-height: 1.25em;
 }
 
 hr {
   margin: 40px 0;
-  height: 2px;
+  height: 1px;
+  border-color: Black;
   color: Black;
 }
 
@@ -98,6 +102,12 @@ h3 {
 
 p {
   margin: 20px 0;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 
 /*----------------------------------------------------------
@@ -151,6 +161,10 @@ nav > img.logo {
 ----------------------------------------------------------*/
 
 .header.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
   margin-top: 85px;
 }
 
@@ -158,18 +172,37 @@ nav > img.logo {
     services
 ----------------------------------------------------------*/
 
+.services.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
 
+section.service {
+  border: 1px solid Black;
+  width: 420px;
+  padding: 20px;
+
+  background-color: WhiteSmoke;
+}
 
 /*----------------------------------------------------------
     facts
 ----------------------------------------------------------*/
 
-
+.facts.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
 
 /*----------------------------------------------------------
     footer
 ----------------------------------------------------------*/
 
-
+footer {
+  text-align: center;
+}
 
 /*--------------------------------------------------------*/
