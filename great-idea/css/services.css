@@ -154,7 +154,7 @@ nav > a:hover {
   text-decoration: underline;
 }
 
-nav > img.logo {
+nav > a > img.logo {
   margin-left: 30px;
 }
 
