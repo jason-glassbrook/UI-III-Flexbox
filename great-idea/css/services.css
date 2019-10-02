@@ -82,14 +82,16 @@ body {
   padding: 0 60px;
 
   font-size: 16px;
-  line-height: 1.25em;
+  line-height: 1.20em;
 }
 
 hr {
   margin: 40px 0;
+  border: none;
   height: 1px;
-  border-color: Black;
+
   color: Black;
+  background-color: Black;
 }
 
 h2 {
@@ -168,6 +170,10 @@ nav > img.logo {
   margin-top: 85px;
 }
 
+img.services-header-img {
+  margin-bottom: 35px;
+}
+
 /*----------------------------------------------------------
     services
 ----------------------------------------------------------*/
@@ -197,11 +203,18 @@ section.service {
   justify-content: space-between;
 }
 
+section.facts {
+  width: 400px;
+}
+
 /*----------------------------------------------------------
     footer
 ----------------------------------------------------------*/
 
 footer {
+  margin-top: 90px;
+  margin-bottom: 15px;
+
   text-align: center;
 }
 
